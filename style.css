@@ -1,0 +1,271 @@
+/* main */
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+    /* font-variant: small-caps; */
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+html {
+    background: linear-gradient(to right, #caf7f4, #e1f6ff);
+}
+
+.bando {
+    width: 100%;
+    height: 30%;
+    margin-bottom: 0;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.header {
+    background-image: url('image/banner.jpg');
+    background-size: 100% 100%;
+    height: 0px;
+    padding-bottom: 25%;
+    border-radius: 5px;
+}
+
+.container footer {
+    border-top: 5px double black;
+    line-height: 50px;
+    background-color: #7732a6;
+    font-variant: small-caps;
+    clear: both;
+    border-radius: 5px;
+}
+
+.container footer p {
+    font-weight: bold;
+    line-height: 1.5;
+}
+
+.menu ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    background-color: sandybrown;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.menu>ul>li{
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+    font-size: 11pt;
+    font-weight: normal;
+    text-align: justify;
+}
+.menu a{
+    display: block;
+    line-height:30px;
+    color:white;
+    text-decoration:none;
+    font-variant:small-caps;
+    font-size:larger;
+    padding:0px 10px;
+}
+.menu a:hover{
+    background-color: blueviolet;
+    color: #e6db0b;
+}
+.menu .menu-con{
+    position: absolute;
+    display: none;
+    padding: 0;
+    list-style: none;
+    width: 205px;
+    background-color: #0dacd4;
+}
+.menu li:hover > .menu-con{
+    display: block;
+}
+.menu>li>.menu-con{
+    top: 20px;
+    left: 0;
+}
+
+.main {
+    margin: 20px auto;
+    width: 100%;
+    height: 600px;
+}
+
+.left {
+    width: 70%;
+    height: auto;
+    float: left;
+}
+
+.right {
+    width: 29%;
+    height: auto;
+    float: left;
+}
+
+.left-box {
+    width: 98.5%;
+    height: 100%;
+    border: 2px solid #333;
+    color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+
+.left-box tr th h2 a {
+    text-decoration: none;
+    font-size: 50px;
+}
+
+.left-box tr td {
+    padding: 5px;
+    font-size: larger;
+    text-align: left;
+    color: #333;
+}
+
+.image-cell {
+    width: 400px;
+    height: 400px;
+}
+
+.image-cell img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.right-box1 {
+    margin-bottom: 15px;
+    width: 101.5%;
+    height: 32%;
+    border: 2px solid #333;
+    color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+
+.right-box2 {
+    width: 101.5%;
+    height: 30.3%;
+    border: 2px solid #333;
+    color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.right-box3 {
+    margin-bottom: 5px;
+    float: left;
+    width: 101.5%;
+    height: 30%;
+    border: 2px solid #333;
+    color: white;
+    justify-content: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+
+.right-box1 a {
+    font-size: 20px;
+    padding: 10px;
+    float: left;
+    text-decoration: none;
+    text-align: left;
+}
+
+.right-box1 td {
+    font-size: 15px;
+    padding: 10px;
+    float: left;
+    text-decoration: none;
+    text-align: left;
+    color: black;
+}
+
+.right-box2 a {
+    font-size: 20px;
+    padding: 10px;
+    float: left;
+    text-decoration: none;
+    text-align: left;
+}
+
+.right-box2 td {
+    font-size: 15px;
+    padding: 10px;
+    float: left;
+    text-decoration: none;
+    text-align: left;
+    color: black;
+}
+
+.right-box3 a {
+    font-size: 20px;
+    padding: 10px;
+    float: left;
+    text-decoration: none;
+    text-align: left;
+}
+
+.right-box3 td {
+    font-size: 15px;
+    padding: 10px;
+    float: left;
+    text-decoration: none;
+    text-align: left;
+    color: black;
+}
+
+/* gioithieu.html */
+
+main-gt {
+    margin: 20px auto;
+    width: 100%;
+    height: auto;
+}
+
+.image-cell-gt {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    text-align: center;
+}
+
+.image-cell-gt img {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+    display: block;
+    margin: auto;
+}
+
+.nd-gt {
+    border-radius: 5px;
+    background-color: #99CCCC;
+    width: 100%;
+}
+
+.nd-gt tr td h3 {
+    padding: 10px;
+}
+
+.nd-gt tr td h4 {
+    padding-top: 5px;
+    padding-bottom: 3px;
+}
+
+.nd-gt tr td p {
+    padding: 2px;
+}

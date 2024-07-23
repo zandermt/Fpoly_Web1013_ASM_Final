@@ -1,0 +1,129 @@
+/* main */
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+html {
+    background: linear-gradient(to right, #caf7f4, #e1f6ff);
+}
+
+.bando {
+    width: 100%;
+    height: 30%;
+    margin-bottom: 0;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.header {
+    background-image: url('img/banner.jpg');
+    background-size: 100% 100%;
+    height: 0px;
+    padding-bottom: 25%;
+    border-radius: 5px;
+}
+
+.container footer {
+    border-top: 5px double black;
+    line-height: 50px;
+    background-color: #7732a6;
+    font-variant: small-caps;
+    clear: both;
+    border-radius: 5px;
+}
+
+.container footer p {
+    font-weight: bold;
+    line-height: 1.5;
+}
+
+.menu ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    background-color: sandybrown;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.menu>ul>li{
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+    font-size: 11pt;
+    font-weight: normal;
+    text-align: justify;
+}
+.menu a{
+    display: block;
+    line-height:30px;
+    color:white;
+    text-decoration:none;
+    font-variant:small-caps;
+    font-size:larger;
+    padding:0px 10px;
+}
+.menu a:hover{
+    background-color: blueviolet;
+    color: #e6db0b;
+}
+.menu .menu-con{
+    position: absolute;
+    display: none;
+    padding: 0;
+    list-style: none;
+    width: 205px;
+    background-color: #0dacd4;
+}
+.menu li:hover > .menu-con{
+    display: block;
+}
+.menu>li>.menu-con{
+    top: 20px;
+    left: 0;
+}
+
+.main-ctcm {
+    margin: 10px auto;
+    width: 100%;
+    height: auto;
+}
+
+.image-cell-gt {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    text-align: center;
+}
+
+.image-cell-gt img {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+    display: block;
+    margin: auto;
+}
+
+.mon-hoc {
+    width: 100%;
+    height: 90%;
+    border-collapse: collapse;
+    object-fit: cover;
+    border-radius: 5px;
+    background-color: #99CCCC;
+}
+
+.mon-hoc tr td {
+    width: 300px;
+    padding: 10px;
+}

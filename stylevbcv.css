@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+html {
+    background: linear-gradient(to right, #caf7f4, #e1f6ff);
+}
+
+.bando {
+    width: 100%;
+    height: 30%;
+    margin-bottom: 0;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.header {
+    background-image: url('img/banner.jpg');
+    background-size: 100% 100%;
+    height: 0px;
+    padding-bottom: 25%;
+    border-radius: 5px;
+}
+
+.container footer {
+    border-top: 5px double black;
+    line-height: 50px;
+    background-color: #7732a6;
+    font-variant: small-caps;
+    clear: both;
+    border-radius: 5px;
+}
+
+.container footer p {
+    font-weight: bold;
+    line-height: 1.5;
+}
+
+.menu ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    background-color: sandybrown;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.menu>ul>li{
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+    font-size: 11pt;
+    font-weight: normal;
+    text-align: justify;
+}
+.menu a{
+    display: block;
+    line-height:30px;
+    color:white;
+    text-decoration:none;
+    font-variant:small-caps;
+    font-size:larger;
+    padding:0px 10px;
+}
+.menu a:hover{
+    background-color: blueviolet;
+    color: #e6db0b;
+}
+.menu .menu-con{
+    position: absolute;
+    display: none;
+    padding: 0;
+    list-style: none;
+    width: 205px;
+    background-color: #0dacd4;
+}
+.menu li:hover > .menu-con{
+    display: block;
+}
+.menu>li>.menu-con{
+    top: 20px;
+    left: 0;
+}
+
+.main-vbcv {
+    margin: 10px auto;
+    width: 100%;
+    height: auto;
+}
+
+.tb-vbcv {
+    background-color: white;
+    border-collapse: collapse;
+    margin: 10px auto;
+    width: 100%;
+    height: auto;
+}
+
+.tb-vbcv tr td {
+    text-align: left;
+    padding-bottom: 15px;
+}
+
+.titlevb {
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px;
+    color: black;
+}
+
+.thongtinvb {
+    text-align: left;
+    padding-left: 10px;
+}
+
+.tb-vbcv tr td img {
+    padding-left: 10px;
+    padding-right: 5px;
+    width: 20px;
+}
+
+
+
+
+
